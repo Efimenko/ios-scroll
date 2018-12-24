@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    html {
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      font-size: 40px;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .wrapper {
+      overflow: auto;
+      height: 100%;
+    }
+
+    .hidden {
+      overflow: hidden;
+    }
+
+    button {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <button>hidden</button>
+  <div class="wrapper">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero iste repellendus distinctio consequuntur labore, iure fuga laudantium cum, nisi vitae qui deleniti dolorum deserunt maiores. Veritatis officiis nesciunt deleniti.
+  </div>
+  <script>
+    document.querySelector('button').addEventListener('click', () => {
+      document.querySelector('.wrapper').classList.toggle('hidden')
+    })
+  </script>
+</body>
+</html>
